@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 ''' type-annotated function floor'''
-from math import floor
 
 
 def floor(n: float) -> int:
@@ -10,4 +9,4 @@ def floor(n: float) -> int:
     Return:
          the floor of the float
     '''
-    return floor(n)
+    return int(n)
