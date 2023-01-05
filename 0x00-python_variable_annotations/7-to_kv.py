@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 ''' type-annotated function sum_mixed_list'''
-from typing import List, Union
+from typing import Tuple, Union
 
 
-def sum_mixed_list(mxd_lst: List[Union[float, int]]) -> float:
+def to_kv(k: str, v: Union[int,float] -> Tuple[str, float]):
     '''
     Args:
         input_list: list[Union[float , int]]
     Return:
         float
     '''
-    return sum(mxd_lst)
+    return (k,v)
