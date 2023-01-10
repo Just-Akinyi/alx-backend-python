@@ -2,9 +2,10 @@
 '''defines async_generator function'''
 import asyncio
 import random
+from typing import List
 
 
-async def async_generator() -> float:
+async def async_generator() -> List[float]:
     '''
     returns:
         random float
